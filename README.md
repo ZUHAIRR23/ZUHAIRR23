@@ -46,13 +46,3 @@
     <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS" width="40" height="40" style="transition: transform 0.3s;" />
   </a>
 </p>
-
-<!-- Optional CSS for hover effect -->
-<style>
-  a img:hover {
-    transform: scale(1.2);
-  }
-  h1, h3 {
-    font-family: 'Arial', sans-serif;
-  }
-</style>
