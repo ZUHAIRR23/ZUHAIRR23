@@ -1,0 +1,411 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+/* Container - Centers all content */
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+/* Section Styling */
+.section {
+  padding: 40px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.section:last-child {
+  border-bottom: none;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  text-align: left;
+  letter-spacing: 0.5px;
+}
+
+/* Business Grid */
+.business-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin-bottom: 20px;
+}
+
+.business-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #e9ecef;
+}
+
+.business-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.business-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.business-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: #e9ecef;
+}
+
+.business-content {
+  padding: 20px;
+}
+
+.business-category {
+  display: inline-block;
+  background-color: #e8f5e8;
+  color: #2e7d32;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.business-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 12px;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.business-price {
+  font-size: 18px;
+  font-weight: 700;
+  color: #27ae60;
+  margin: 0;
+}
+
+/* Upcoming Business Section */
+.upcoming-business {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 30px;
+  background: linear-gradient(135deg, #e8f5e8 0%, #f0f8f0 100%);
+  border-radius: 12px;
+  border: 1px solid #d4edda;
+}
+
+.upcoming-icon {
+  flex-shrink: 0;
+}
+
+.icon-circle {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(39, 174, 96, 0.3);
+}
+
+.icon {
+  font-size: 32px;
+  filter: grayscale(1) brightness(0) invert(1);
+}
+
+.upcoming-content h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 12px;
+}
+
+.upcoming-content p {
+  color: #5a6c7d;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+/* Investment List */
+.investment-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.investment-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background: white;
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  transition: box-shadow 0.3s ease;
+}
+
+.investment-item:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.investment-image {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.investment-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: #e9ecef;
+}
+
+.investment-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.investment-category {
+  display: inline-block;
+  background-color: #e8f5e8;
+  color: #2e7d32;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 10px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.investment-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 8px;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.investment-price {
+  font-size: 16px;
+  font-weight: 700;
+  color: #27ae60;
+  margin-bottom: 4px;
+}
+
+.investment-status {
+  font-size: 10px;
+  color: #6c757d;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.investment-action {
+  flex-shrink: 0;
+}
+
+.btn-terpenuhi {
+  background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 8px rgba(39, 174, 96, 0.3);
+}
+
+.btn-terpenuhi:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(39, 174, 96, 0.4);
+}
+
+/* Halal Investment Banner */
+.halal-banner {
+  background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%);
+  color: white;
+  padding: 40px;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.halal-banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="2" fill="rgba(255,255,255,0.1)"/></svg>') repeat;
+  opacity: 0.1;
+}
+
+.banner-content {
+  position: relative;
+  z-index: 1;
+}
+
+.banner-content h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+
+.banner-content p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  opacity: 0.95;
+  line-height: 1.6;
+}
+
+.banner-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 12px;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 0;
+  opacity: 0.95;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .App {
+    padding: 10px;
+  }
+  
+  .section {
+    padding: 20px;
+  }
+  
+  .section-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .business-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  
+  .upcoming-business {
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+  }
+  
+  .investment-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  
+  .investment-action {
+    align-self: stretch;
+  }
+  
+  .btn-terpenuhi {
+    width: 100%;
+    padding: 12px;
+  }
+  
+  .banner-features {
+    grid-template-columns: 1fr;
+  }
+  
+  .banner-content h2 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    border-radius: 0;
+  }
+  
+  .section {
+    padding: 15px;
+  }
+  
+  .business-content {
+    padding: 15px;
+  }
+  
+  .upcoming-business {
+    padding: 20px;
+  }
+  
+  .halal-banner {
+    padding: 30px 20px;
+  }
+}
