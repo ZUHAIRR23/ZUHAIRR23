@@ -1,44 +1,11 @@
-<h1 align="center">Hi 👋, I'm Abdurahman Zuhair</h1>
-<h3 align="center">A passionate backend developer from Indonesia</h3>
-
-<p align="center">
-  👨‍💻 All of my projects are available at 
-  <a href="https://zuhairr23.github.io/portfolio/" target="_blank">zuhairr23.github.io/portfolio</a>
-</p>
-
-<p align="center">
-  📫 How to reach me: 
-  <a href="mailto:abdurrahman.zuh@gmail.com">abdurrahman.zuh@gmail.com</a>
-</p>
-
-<h3>Connect with me:</h3>
-<p>
-  <a href="https://linkedin.com/in/abdurahman-zuhair" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn - Abdurahman Zuhair" height="30" width="40" />
-  </a>
-  <a href="https://instagram.com/dgreyzhr" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram - dgreyzhr" height="30" width="40" />
-  </a>
-</p>
-
-<h3>Languages and Tools:</h3>
-<p>
-  <a href="https://getbootstrap.com" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap" width="40" height="40"/>
-  </a>
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="40" height="40"/>
-  </a>
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="40" height="40"/>
-  </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
-  </a>
-  <a href="https://www.php.net" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="PHP" width="40" height="40"/>
-  </a>
-  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS" width="40" height="40"/>
-  </a>
-</p> 
+<div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:0f2027&height=200&section=header&text=Abdurahman%20Zuhair&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20Developer%20from%20Indonesia&descAlignY=58&descSize=18" width="100%"/> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=2C5364&center=true&vCenter=true&width=600&lines=Backend+Developer+%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB;PHP+%7C+JavaScript+%7C+Tailwind+CSS;Always+learning%2C+always+building.;Welcome+to+my+GitHub+profile!" alt="Typing SVG" /> </div> <br/> <table align="center"> <tr> <td valign="top" width="50%">
+👋 About Me
+🔭 Backend developer passionate about building clean, reliable systems
+🌱 Constantly leveling up my JavaScript & PHP skills
+🎨 Comfortable across the stack — from Bootstrap layouts to server logic
+👨‍💻 All my projects live on my portfolio site
+📫 Reach me at abdurrahman.zuh@gmail.com
+⚡ Fun fact: I enjoy turning messy requirements into clean code
+</td> <td valign="top" width="50%">
+📊 GitHub Stats
+<img src="https://github-readme-stats.vercel.app/api?username=zuhairr23&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="100%"/> </td> </tr> </table> <div align="center"> <img src="https://github-readme-streak-stats.herokuapp.com/?user=zuhairr23&theme=tokyonight&hide_border=true" width="49%"/> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zuhairr23&layout=compact&theme=tokyonight&hide_border=true" width="42%"/> </div> <br/> <h3 align="center">🛠️ Languages & Tools</h3> <div align="center"> <img src="https://skillicons.dev/icons?i=html,css,js,php,bootstrap,tailwind&theme=dark" /> </div> <br/> <h3 align="center">🌐 Connect with Me</h3> <p align="center"> <a href="https://linkedin.com/in/abdurahman-zuhair" target="_blank"> <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /> </a> <a href="https://instagram.com/dgreyzhr" target="_blank"> <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /> </a> <a href="mailto:abdurrahman.zuh@gmail.com"> <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /> </a> <a href="https://zuhairr23.github.io/portfolio/" target="_blank"> <img src="https://img.shields.io/badge/Portfolio-2C5364?style=for-the-badge&logo=googlechrome&logoColor=white" /> </a> </p> <div align="center"> <img src="https://komarev.com/ghpvc/?username=zuhairr23&label=Profile%20Views&color=2c5364&style=flat" /> </div> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:0f2027&height=100&section=footer" width="100%"/>
